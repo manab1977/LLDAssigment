@@ -44,6 +44,7 @@ namespace LLDAssigment.Assignment1
         public Rectangle(double h, double w): base(h, w)
         {
         }
+
         public override double ComputeArea()
         {
             return (height * width);
